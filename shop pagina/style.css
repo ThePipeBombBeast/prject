@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+div:first-child {
+    font-family: impact;
+    display: flex;
+    height: 200px;
+    width: 400px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 3px 3px 3px;
+    flex-direction:column;
+    font-size: 30px;
+    margin:2px;
+    padding: 8px;
+}
+
+
+
