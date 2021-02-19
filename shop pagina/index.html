@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -6,20 +6,46 @@
     <title>shop page</title>
 </head>
 <body>
-    <div class="Dvdspelers">
-        DVD spelers en Branders
-        <img class="speler" src="musem-52.jpg" alt="dvdspeler1" style="width:100px;height:50px;"></img>
+    <header>
+    <nav id="navbar">
+        <ul class="rightside">
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="informatiepagina.html">informatie</a></li>  
+          <li><a href="reparatiepagina.html">reparatie</a></li> 
+          <form id="searchbar">
+            <input type="search" id="search" name="search" placeholder="zoek">
+            <input type="image" name="submit" id="zsearch" src="search.png" alt="zoekie">
+          </form>
+        </ul>
+        <div class="triangle">
         
-        <img class="speler" src="externe dvd brander speler.jpg" alt="dvdspeler2" style="width:100px;height:50px;"></img>
-        <img class="speler" src="sony dvp-sr760h.jpg" alt="dvdspeler3" style="width:100px;height:50px;"></img>
+          <h1 class="middle">LOGO</h1>
+        </div>
+        <ul class="leftside">
+          <li><img src="cart.png" alt="winkelmand"></li>
+            <li><a href="#login">login/sign up</a></li>
+            
+        </ul>
+      </nav>
+    </header>
+    <content>
+    <div class="sidebar">
+      <p>Merken</p>
+      <p>pcs/laptops</p>
+      <P>computer onderdelen</P>
+      <p>randapperatuur</p>
     </div>
-    <div class="muziek"></div>
-    <div class="gpus"></div>
-    <div class="hdds"></div>
-    <div class="monitoren"></div>
-    <div class="muizen"></div>
-    <div class="bekabeling"></div>
-    <div class="voeding"></div>
-    <div class="pcs"></div>
+    <div class="cards">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+    </content>
+    <footer>
+
+    </footer>
 </body>
 </html>
