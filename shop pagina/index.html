@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>shop page</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+      </style>
 </head>
 <body>
     <header>
     <nav id="navbar">
         <ul class="rightside">
-          <li><a href="homepage.html">Home</a></li>
+          <li><a href="beroepsproject.html">Home</a></li>
           <li><a href="informatiepagina.html">informatie</a></li>  
           <li><a href="reparatiepagina.html">reparatie</a></li> 
           <form id="searchbar">
@@ -18,7 +23,6 @@
           </form>
         </ul>
         <div class="triangle">
-        
           <h1 class="middle">DATAFOX</h1>
         </div>
         <ul class="leftside">
@@ -92,134 +96,169 @@
     <div class="cards">
         <div class="card">
           <img src="vivo15.png" name="vivobook15" style="width:100%; height: 80%;"alt="laptop">
-          <h1>Asus vivobook 15</h1>
+          <h1 class="itemname">Asus vivobook 15</h1>
           <p class="prijs">1099,99</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="3080gpu.jpg" name="3080gpu" style="width: 100%; height: 80%;"  alt="gpu3080">
-          <h1>Gigabyte Geforce RTX 3080 Vision OC</h1>
+          <h1 class="itemname">Gigabyte Geforce RTX 3080 Vision OC</h1>
           <p class="prijs">1085,37</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="ryzen3600.jpg" style="height: 90%;"name="ryzen3600" alt="ryzen36">
-          <h1>AMD Ryzen 5 3600</h1>
+          <h1 class="itemname">AMD Ryzen 5 3600</h1>
           <p class="prijs">202,95</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="ryzen5.jpg" style="height: 90%;"name="ryzen5600x" alt="ryzen5600x">
-          <h1>AMD Ryzen 5 5600X</h1>
+          <h1 class="itemname">AMD Ryzen 5 5600X</h1>
           <p class="prijs">372,95</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
-        <div class="rightbox1"></div>
+        <div class="rightbox1">
+          <p class="uitverkoop">OP=OP Uitverkoop begint 30-2-2021 tot 03-3-2021!</p>
+          <img src="uitverkoop.jpg" name="uitverkooppic" alt="opisop">
+          <p class="uitverkoop1">Hoge kortingen op alle GPU's tot en met 40% en op randapperatuur tot 80% korting!! *alleen geldig bij aankopen van meer dan €150</p>
+        </div>
         <div class="card">
           <img src="eizomoni.jpeg" name="eizomonitor" style="width: 100%; height: 90%;" alt="eizomon">
-          <h1>Eizo EV3285-BK 32 inch monitor</h1>
+          <h1 class="itemname">Eizo EV3285-BK 32 inch monitor</h1>
           <p class="prijs">1269,95</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="samsungcurve.jpg" name="FHDcurved" alt="samsungcurve" style="width: 100%; height: 90%;">
-          <h1>Samsung FHD Curved 27 inch LC27R500FHUXEN Monitor - Zwart</h1>
+          <h1 class="itemname">Samsung FHD Curved 27 inch LC27R500FHUXEN Monitor - Zwart</h1>
           <p class="prijs">139,50</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="muis1.jpg" name="logitechm" alt="muis1logi" style="height: 90%;">
-          <h1>Logitech M235 Notebook antraciet</h1>
+          <h1 class="itemname">Logitech M235 Notebook antraciet</h1>
           <p class="prijs">25,06</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="naga.jpg" name="naga" alt="razernaga" style="height: 90%;">
-          <h1>Razer Naga gaming muis</h1>
+          <h1 class="itemname">Razer Naga gaming muis</h1>
           <p class="prijs">68,00</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="rightbox">
+          <div class="videogpu">
+          <iframe width="400" height="230" src="https://www.youtube.com/embed/oAuszfdldEU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="addtext">Bekijk hier de nieuwste generatie grafische kaarten die we nu op vooraad hebben!</p>
+          </div>
         </div>
         <div class="card">
           <img src="PI_637045848093799359_detail.jpg" name="samsungssd860evo" alt="ssd860" style="height: 90%;">
-          <h1>Samsung interne SSD 860 EVO 2.5" 500GB</h1>
+          <h1 class="itemname">Samsung SSD 860 EVO 2.5" 500GB</h1>
           <p class="prijs">93,17</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="seagatehdd.jpg" name="hdd2t" alt="2tbhdd" style="height: 90%; width: 100%;">
-          <h1>Seagate HDD 3.5" 2TB ST2000DM008 Barracuda</h1>
+          <h1 class="itemname">Seagate HDD 3.5" 2TB ST2000DM008 </h1>
           <p class="prijs">51,90</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="i779.jpg" name="intelcorei79700" alt="i79700" style="height: 90%;">
-          <h1>Intel core i7-9700</h1>
+          <h1 class="itemname">Intel core i7-9700</h1>
           <p class="prijs">279,00</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="ramvengance.png" name="corsairddr4" alt="ramddr4vengance" style="height: 90%;">
-          <h1>Corsair DDR4 Vengeance RGB Pro 2x8GB 3200</h1>
+          <h1 class="itemname">Corsair DDR4 Vengeance RGB Pro 2x8GB 3200</h1>
           <p class="prijs">99,00</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="rightbox"></div>
         <div class="card">
           <img src="acer predatorlp.jpg" name="predatorlaptop" alt="predatorl" style="height:90%;">
-          <h1>Acer Predator Triton 500</h1>
+          <h1 class="itemname">Acer Predator Triton 500</h1>
           <p class="prijs">2799,00</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="netwerkkaart.jpg" name="wireless" alt="netkaart" style="height: 90%;">
-          <h1>D-Link DWA-582 Wireless AC1200</h1>
+          <h1 class="itemname">D-Link DWA-582 Wireless AC1200</h1>
           <p class="prijs">39,90</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="corsairrm850x.jpg" name="voedingcorsair" alt="850x" style="height: 90%;">
-          <h1>Corsair RM850X PSU</h1>
+          <h1 class="itemname">Corsair RM850X PSU</h1>
           <p class="prijs">150,90</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="headsetlogi.jpg" name="logitechg935" alt="wirelessheadlogi" style="height: 90%;">
-          <h1>Logitech G935 Wireless 7.1 Surround Sound</h1>
+          <h1 class="itemname">Logitech G935 Wireless 7.1</h1>
           <p class="prijs">124,99</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="rightbox"></div>
         <div class="card">
           <img src="keyboardhyperx.jpg" name="mechaboard" alt="keymecha" style="height: 90%;">
-          <h1>HyperX Alloy Origins Core RGB Mechanical Keyboard</h1>
+          <h1 class="itemname">HyperX Alloy Origins Core RGB Mechanical Keyboard</h1>
           <p class="prijs">109,00</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="hitatchibrander.jpg" name="dvdbrander1" alt="brand1" style="height: 90%;">
-          <h1>Hitachi-LG GP57EB40 Externe DVD/CD Speler en Brander Zwart</h1>
+          <h1 class="itemname">Hitachi-LG GP57EB40 Externe DVD/CD Speler en Brander Zwart</h1>
           <p class="prijs">44,99</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="amdgpu.png" name="gpuamd5700" alt="radeon5700" style="height: 90%;">
-          <h1>Gigabyte Radeon RX 5700 XT Gaming OC 8gb GDDR6</h1>
+          <h1 class="itemname">Gigabyte Radeon RX 5700 XT Gaming OC 8gb</h1>
           <p class="prijs">599,00</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="card">
           <img src="nepton.jpeg" name="nepton" alt="koeler1" style="height: 90%;">
-          <h1>Cooler Master Nepton 240M waterkoeling</h1>
+          <h1 class="itemname">Cooler Master Nepton 240M waterkoeling</h1>
           <p class="prijs">45,00</p>
           <input type="image" src="cart.png" alt="addtoc" id="addtoc"></input>
         </div>
         <div class="rightbox"></div>
-        <div class="footer"></div>
-        <div class="footer"></div>
-        <div class="footer"></div>
-        <div class="footer"></div>
+        <div class="footer">
+          <h1 class="foothead">Mijn gegevens</h1>
+          <ul class="gegevens">
+          <li><a href="#">Inloggen</a></li>
+          <li><a href="#">Registreren</a></li>
+          <li><a href="#">Naar mobiele website</a></li>
+          <li><a href="#">privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer">
+        <h1 class="foothead">Services</h1>
+        <ul class="services">
+          <li><a href="#">Retouren</a></li>
+          <li><a href="#">Reparatiestatus</a></li>
+          <li><a href="#">Servicepunt</a></li>
+          <li><a href="#">Spaarprogramma</a></li>
+          <li><a href="#">Betaalmethoden</a></li>
+        </ul>
+        </div>
+        <div class="footer">
+          <h1 class="foothead">Contact </h1>
+          <ul class="contact">
+            <li>contact@myfox.com</li>
+            <li>+31 02054432991
+          <li>Johan Cruijff Boulevard</li>
+          <li>240</li>
+          <li>1101 DJ Amsterdam</li>
+        </div>
+        <div class="footer">
+
+        </div>
         <div class="footer2"></div>
         
     </div>

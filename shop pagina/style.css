@@ -16,7 +16,7 @@ nav {
     background-color: rgb(255, 139, 14);
     padding: 2px;
     margin: 0px;
-    
+    font-family: 'heebo';
     grid-template-columns: 470px auto 1fr;
 }
 #search{
@@ -50,13 +50,19 @@ nav ul {
     white-space: nowrap;
     overflow: hidden;
     z-index:0;
-    
+    padding: 5px;
+    letter-spacing: 0.05em;
+    width: 100px;
+    text-align: center;
+}
+.rightside a:hover {
+    letter-spacing: 0.06em;
 }
 .middle {
     display: grid;
     position: absolute;
-    right:55%;
-    left:45%;
+    right:60%;
+    left:40%;
     float:none;
     color: white;
 }
@@ -67,9 +73,9 @@ nav ul {
     position: absolute;
     padding-left: 70px;
     padding-right: 100px;
-    right:55%;
-    left:45%;
-    float:none;
+    right: 55%;
+    left: 45%;
+    float: none;
     width: 0px;
     height: 0px;
     border-left: 70px solid transparent;
@@ -77,6 +83,7 @@ nav ul {
     border-bottom: 80px solid black;
     z-index:-1;
     align-content: center;
+    
 }
 .leftside a {
     display: inline;
@@ -129,6 +136,7 @@ content{
     height:1458px;
     background-color: rgb(247, 172, 75);
     z-index: -1;
+    font-family: 'heebo';
 }
 /*--dropdown--*/
 .dropb{
@@ -167,7 +175,7 @@ content{
     padding: 5px;
     margin: 0 0 10px 0;
     font-weight: bold;
-    margin: 15px;
+    margin-right: 18px;
     list-style: none;
 }
 .shortkey li {
@@ -260,7 +268,7 @@ content{
     text-decoration: none;
 }
 .shortkey > li:hover .dropr{
-    z-index: 1;
+    z-index: 0;
     opacity: 1;
    
 }
@@ -287,7 +295,7 @@ content{
     grid-template-columns: 210px 210px 210px 210px 500px;
     grid-template-rows: repeat(225px, 4);
     left:180px;
-    z-index: 0;
+    z-index: 1;
     display: grid;
     grid-area: cards;
 }
@@ -304,11 +312,14 @@ content{
     border-style: ridge;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     align-items: center;
+    z-index: 1;
 }
-
+.itemname {
+     letter-spacing: 	0px;
+}
 .card h1{
     text-align:left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'roboto Mono', monospace;
     font-size: 12px;
     margin: 0 0 70px 0x;
     padding: 0px;
@@ -319,12 +330,32 @@ content{
     left: 30px;
     text-decoration: underline;
     font-weight: bold;
+    padding: 0px;
+    color: rgb(255, 255, 255)
    
 }
 .card img{
     align-content: center;
     width: 100%;
     height: 100%;
+}
+.videogpu{
+    position: relative;
+    width: 100%;
+    height: 0;
+    align-items: center;
+}
+.addtext {
+    width: 50px;
+    height: 230px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    float: inline-start;
+
 }
 #addtoc {
     position: absolute;
@@ -339,28 +370,86 @@ content{
 }
 .rightbox{
     display:grid;
-    height: 230px;
-    width: 500px;
+    height: 231px;
+    width: 451px;
     background-color: rgb(247, 172, 75);
-    padding: 0px;
-    margin:0px;
+    padding-right: 48px;
+    grid-template-columns: minmax(450px, auto);
 } 
 .rightbox1{
     display:grid;
-    height: 230px;
-    width: 500px;
+    height: 231px;
+    width: 450px;
     background-color: rgb(247, 172, 75);
-    padding: 0px;
-    margin:0px;
+    padding-right: 48px; 
+    position: relative;
+}
+.rightbox1 img {
+    position: absolute;
+    top: 37px;
+    width: 100%;
+    height: 40%;
+}
+.uitverkoop {
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    font-family: 'heebo';
+    font-weight: 700;
+}
+.uitverkoop1 {
+    position: absolute;
+    top: 120px;
+    font-family: 'heebo';
 }
 .footer2{
+    padding-right: 0px;
     width: 500px;
-    background-color:  rgb(255, 145, 0);;
+    background-color:  rgb(255, 145, 0);
+    z-index: 2;
+    
 }
 .footer {
+    font-family: 'Heebo', sans-serif;
     margin-top: 20px;
     display: grid;
-    width: 220px;
+    width: 500px;
     height: 280px;
     background-color: rgb(255, 145, 0);
+    z-index: 1;
+    position: relative;
+    
+}
+.foothead{
+    color: white;
+    text-align: left;
+}
+.contact {
+        top:25%;
+        position: absolute;
+        list-style: none;
+        text-align: left;
+        
+        
+
+}
+.services{
+        top: 25%;
+        position: absolute;
+        list-style: none;
+        text-align: left;
+        color: white;
+}
+.services a {
+    color: white;
+}
+
+.gegevens{
+        top: 25%;
+        position:   absolute;
+        list-style: none;
+        text-align: left;
+}
+.gegevens a {
+    color: white;
 }
