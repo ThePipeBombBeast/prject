@@ -1,0 +1,200 @@
+body {
+    display: grid;
+    background-color: rgb(0, 0, 0);
+    margin:0px;
+    
+}
+/*------------NAV----------------*/
+nav {
+    z-index: 0;
+    position: absolute;
+    display: grid;
+    top: 0px;
+    left:0px;
+    right:0px;
+    height: 75px;
+    background-color: rgb(255, 139, 14);
+    padding: 2px;
+    margin: 0px;
+    font-family: 'heebo';
+    grid-template-columns: 470px auto 1fr;
+}
+#search{
+    border-radius: 1%;
+    height: 25px;
+    width: 200px;
+    box-shadow: 2px 1px  rgb(0, 0, 0);
+    position: absolute;
+    left: 5px;
+    top:50px;
+}
+#zsearch{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 53px;
+    left:183px;
+}
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 10px;
+  }
+.rightside a {
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    background-color: black;
+    padding:0px;
+    margin: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index:0;
+    padding: 5px;
+    letter-spacing: 0.05em;
+    width: 100px;
+    text-align: center;
+    border-radius: 20%;
+}
+.rightside a:hover {
+    letter-spacing: 0.06em;
+}
+.middle {
+    display: grid;
+    position: absolute;
+    right:60%;
+    left:40%;
+    float:none;
+    color: white;
+}
+.triangle{
+    display: grid;
+    padding-left: 70px;
+    padding-right: 100px;
+    position: absolute;
+    padding-left: 70px;
+    padding-right: 100px;
+    right: 55%;
+    left: 45%;
+    float: none;
+    width: 0px;
+    height: 0px;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 80px solid black;
+    z-index:-1;
+    align-content: center;
+    
+}
+
+.leftside a {
+    display: inline;
+    float: right;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    right: 5px;
+    top:4px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0;
+    margin:1px;
+    padding:5px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    width: 130px;
+    border-radius: 20%;
+}
+.leftside a:hover{
+    letter-spacing: 0.06em;
+}
+.leftside img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: inline;
+    float: right;
+    position: absolute;
+    right:10px;
+    top: 40px;
+}
+.leftside img:hover{
+    opacity: 0.7;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+content{
+    display: grid;
+
+}
+body{
+    position: relative;
+    display: grid;
+}
+.logform{
+    position: absolute;
+    top: 100px;
+    left: 46%;
+    height: 350px;
+    width: 220px;
+    background-color: rgb(255, 139, 14);
+    font-family: 'heebo';
+    padding: 40px;
+    align-items: center;
+    float: center;
+    justify-items: center;
+}
+.bingus {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 25%;
+    left: 27.7%;
+    right:27.7%;
+    bottom: 25%;
+    font-family: 'heebo';
+    align-content: center;
+    border: none;
+    float: center;
+    justify-items: center;
+    align-items: center;
+    margin:0px;
+    padding: 4px;
+
+}
+#subb{
+    cursor: pointer;
+    width: 100%;
+    padding: 7px;
+    margin: 0px;
+    outline: none;
+    box-shadow: 0px 1px 0px 1px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+#password::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#password{
+    border: none;
+    width: 100%;
+    outline: none;
+    
+  
+}
+#user::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#user{
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.middle a {
+    color: white;
+    text-decoration: none;
+}
