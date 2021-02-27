@@ -499,3 +499,28 @@ content{
 .gegevens a {
     color: white;
 }
+#ideal{
+    width: 20%;
+    position: absolute;
+    bottom:    65px;
+    left:55px;
+}
+#btc{
+    width: 5%;
+    position: absolute;
+    bottom: 142px;
+    left: 125px;
+}
+#paypal{
+    width: 20%;
+    position: absolute;
+    bottom: 0px;
+    left:55px;
+}
+.betaal{
+    position: absolute;
+    font-size: 14px;
+    color:white;
+    bottom: 165px;
+    left: 55px;
+}
